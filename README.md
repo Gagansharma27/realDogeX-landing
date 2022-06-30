@@ -2,7 +2,7 @@
 
 ## Demo
 
-Website link (hosted on vercel) **TODO**
+Website link (hosted on vercel) **TODO**\
 Video Demo **TODO**
 
 ![Laptop Page](./demo/laptop.png)
@@ -40,3 +40,10 @@ Prequisite: [Node.js](https://nodejs.org) (and npm) version 14+
     ```sh
     npm run build
     ```
+
+# Challenges (Google was my best friend)
+
+- Making the website (especially the nav bar) responsive
+- Dealing with ugly HTML/JSX tailwind css produces
+- Writing all components without a 3rd party component library
+- Designing and implementing the "Testimonials" section
