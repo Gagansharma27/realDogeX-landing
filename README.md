@@ -3,7 +3,7 @@
 ## Demo
 
 [Website link](https://stackup-landing-page.vercel.app/) (hosted on vercel)\
-Video Demo
+[Video Demo](https://drive.google.com/file/d/14DlMH0cdKJR9raZ93_UH_gm9AhsX87US/view?usp=sharing)
 
 ![Laptop Page](./demo/laptop.png)
 ![Phone Page](./demo/phone.png)
