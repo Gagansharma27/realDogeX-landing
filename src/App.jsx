@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Navbar, Welcome, Footer, Services, Testimonials } from "./components";
+import { Navbar, Welcome, Footer, Services, Testimonials, Subscribe } from "./components";
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +19,7 @@ const App = () => {
       </div>
       <Services />
       <Testimonials />
+      <Subscribe />
       <Footer />
     </div>
   );
