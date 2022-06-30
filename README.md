@@ -2,8 +2,8 @@
 
 ## Demo
 
-Website link (hosted on vercel) **TODO**\
-Video Demo **TODO**
+[Website link](https://stackup-landing-page.vercel.app/) (hosted on vercel)\
+Video Demo
 
 ![Laptop Page](./demo/laptop.png)
 ![Phone Page](./demo/phone.png)
