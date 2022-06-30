@@ -16,6 +16,7 @@ const Footer = () => (
       </div>
     </div>
 
+    {/* Info section */}
     <div className="flex justify-center items-center flex-col mt-5">
       <p className="text-white text-sm text-center">Join us today to do crypto - the right way</p>
       <p className="text-white text-sm text-center font-medium mt-2">info@stackup.sh</p>
@@ -23,6 +24,7 @@ const Footer = () => (
 
     <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
 
+    {/* Extreme bottom section */}
     <div className="sm:w-[90%] w-full flex justify-between items-center mt-3">
       <p className="text-white text-left text-xs">@Stackup 2022</p>
       <p className="text-white text-right text-xs">All rights reserved</p>

@@ -3,6 +3,7 @@ import { BsShieldFillCheck } from "react-icons/bs";
 import { BiSearchAlt } from "react-icons/bi";
 import { RiHeart2Fill } from "react-icons/ri";
 
+// Reuseable component for each card in the section
 const ServiceCard = ({ color, title, icon, subtitle, delay }) => (
   <div className="flex flex-row justify-start items-start white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl" data-aos="fade-up-left" data-aos-delay={delay}>
     <div className={`w-10 h-10 rounded-full flex justify-center items-center ${color}`}>
@@ -17,6 +18,7 @@ const ServiceCard = ({ color, title, icon, subtitle, delay }) => (
   </div>
 );
 
+// Flex based responsive layout, row for larger devices and col for smaller
 const Services = () => (
   <div className="flex w-full justify-center items-center gradient-bg-services">
     <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">

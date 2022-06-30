@@ -5,6 +5,7 @@ const Testimonials = () => {
     <>
       <section className="flex items-center justify-center py-16 w-full gradient-bg-testimonials">
         <div className="px-4 md:p-20">
+          {/* Responsive flex layout */}
           <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
             <div className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2">
               <p className="mb-2 text-base font-medium tracking-tight text-white" data-aos="fade-up" data-aos-delay="100">
@@ -31,6 +32,8 @@ const Testimonials = () => {
               </a>
             </div>
             <div className="w-full lg:w-1/2">
+              {/* I tried to extract these blockquotes into components, */}
+              {/* but there were lots of small differences that made componentizing them impractical */}
               <blockquote 
               className="flex items-center justify-between w-full col-span-1 md:p-6 p-4 rounded-lg shadow white-glassmorphism"
               data-aos="fade-up-left"

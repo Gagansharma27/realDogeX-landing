@@ -4,11 +4,13 @@ import { AiOutlineClose } from "react-icons/ai";
 
 import logo from "../images/logo.svg";
 
+// Reuseable component for an individual navbar item
 const NavBarItem = ({ title, classprops }) => (
   <li className={`mx-4 cursor-pointer hover:opacity-75 transition-opacity ${classprops}`}>{title}</li>
 );
 
 const Navbar = () => {
+  // Handle mobile navbar state
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
   const navbarItems = ["About", "Exchange", "Support", "Blog"]
@@ -19,6 +21,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="w-40 cursor-pointer" />
       </div>
       <ul className="text-white mf:flex hidden list-none flex-row justify-between items-center flex-initial">
+        {/* Create navbar with a dynamic loop */}
         {navbarItems.map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
@@ -27,6 +30,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="flex relative">
+        {/* Display mobile navbar */}
         {!toggleMenu && (
           <HiMenuAlt4 fontSize={28} className="text-white mf:hidden cursor-pointer" onClick={() => setToggleMenu(true)} />
         )}
