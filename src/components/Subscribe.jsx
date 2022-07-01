@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className="flex flex-col justify-center items-center pb-16 w-full bg-black">
+    <div className="flex flex-col justify-center items-center pb-16 w-full bg-[#0f0e13]">
       <h2 className="text-white text-xl md:text-4xl font-bold p-4" data-aos="fade-down" data-aos-delay="100">
         Subscribe to our Newsletter
       </h2>
