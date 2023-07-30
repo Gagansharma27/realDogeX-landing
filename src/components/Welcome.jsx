@@ -12,11 +12,19 @@ const Welcome = () => {
     <div className="flex w-full justify-center items-center">
       <div className="flex mf:flex-row flex-col items-stretch justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
-          <h1 className="text-3xl sm:text-6xl text-white font-bold text-gradient py-1" data-aos="fade-right" data-aos-delay="100">
+          <h1
+            className="text-3xl sm:text-6xl text-white font-bold text-gradient py-1"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
             Make Crypto <br /> transactions effortless
           </h1>
-          <p className="text-left mt-5 text-white font-normal md:w-9/12 w-11/12 text-base" data-aos="fade-right" data-aos-delay="150">
-            Stackup is a modern crypto wallet <br />
+          <p
+            className="text-left mt-5 text-white font-normal md:w-9/12 w-11/12 text-base"
+            data-aos="fade-right"
+            data-aos-delay="150"
+          >
+            realDogeX is a modern crypto <br />
             for <strong>everyone</strong>
           </p>
           <button
@@ -26,31 +34,31 @@ const Welcome = () => {
             data-aos-delay="300"
           >
             <AiFillPlayCircle className="text-white mr-2" />
-            <p className="text-white text-base font-semibold">Get a Demo</p>
+            <p className="text-white text-base font-semibold">Connect Wallet</p>
           </button>
 
           {/* Keyword grid */}
-          <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10" data-aos="fade-up-right" data-aos-delay="600">
-            <div className={`rounded-tl-2xl ${commonStyles}`}>
-              Reliability
-            </div>
+          <div
+            className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10"
+            data-aos="fade-up-right"
+            data-aos-delay="600"
+          >
+            <div className={`rounded-tl-2xl ${commonStyles}`}>Reliability</div>
             <div className={commonStyles}>Security</div>
-            <div className={`sm:rounded-tr-2xl ${commonStyles}`}>
-              Ethereum
-            </div>
-            <div className={`sm:rounded-bl-2xl ${commonStyles}`}>
-              Web 3.0
-            </div>
+            <div className={`sm:rounded-tr-2xl ${commonStyles}`}>Ethereum</div>
+            <div className={`sm:rounded-bl-2xl ${commonStyles}`}>Web 3.0</div>
             <div className={commonStyles}>User Friendly</div>
-            <div className={`rounded-br-2xl ${commonStyles}`}>
-              Blockchain
-            </div>
+            <div className={`rounded-br-2xl ${commonStyles}`}>Blockchain</div>
           </div>
         </div>
 
         <div className="flex flex-col flex-1 items-center justify-center w-full mf:mt-0 mt-10">
           {/* Ethereum card */}
-          <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 w-72 my-5 eth-card white-glassmorphism md:hover:scale-125 duration-300" data-aos="fade-left" data-aos-delay="600">
+          <div
+            className="p-3 flex justify-end items-start flex-col rounded-xl h-40 w-72 my-5 eth-card white-glassmorphism md:hover:scale-125 duration-300"
+            data-aos="fade-left"
+            data-aos-delay="600"
+          >
             <div className="flex justify-between flex-col w-full h-full">
               <div className="flex justify-between items-start">
                 <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center hover:opacity-75 transition-opacity">

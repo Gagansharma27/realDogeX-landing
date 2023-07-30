@@ -1,7 +1,14 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Navbar, Welcome, Footer, Services, Testimonials, Subscribe } from "./components";
+import {
+  Navbar,
+  Welcome,
+  Footer,
+  Services,
+  Testimonials,
+  Subscribe,
+} from "./components";
 
 const App = () => {
   // Set up AOS on component mount
@@ -19,8 +26,8 @@ const App = () => {
         <Navbar />
         <Welcome />
       </div>
-      <Services />
-      <Testimonials />
+      {/* <Services />
+      <Testimonials /> */}
       <Subscribe />
       <Footer />
     </div>
